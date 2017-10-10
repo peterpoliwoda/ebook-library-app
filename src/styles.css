@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.ebooks-icon {
+    padding: 0 14px;
+    color: #FFF;
+  }
+  
+  .ebooks-spacer {
+    flex: 1 1 auto;
+  }
+
+  .book-tile {
+    background: rgba(0,0,0,0.15)
+  }
+  
+  .book-title {
+    font-size: 20px;
+  }
+
+  .book-rating {
+    font-size: 14px;
+  }
+
+  .book-rating.mat-icon {
+    height: 6px;
+    width: 20px;
+  }
+
+  .book-card {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+body {
+    background: #424242;
+    /* background: url(https://i.redd.it/jp39t3bq1h2z.jpg); */
+
+}
